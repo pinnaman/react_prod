@@ -1,0 +1,33 @@
+$size-s: 14px;
+$size-m: 16px;
+$size-l: 20px;
+$size-xl: 24px;
+
+.wrapper {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-content: center;
+  padding: 10px;
+
+  &-border {
+    border: solid 1px grey;
+  }
+}
+
+.author {
+  &-name {
+    font-size: $size-l;
+  }
+
+  &-bio {
+    font-size: $size-s;
+  }
+
+  &-socialUrl {
+    text-decoration: none;
+    font-size: $size-m;
+  }
+
+}
